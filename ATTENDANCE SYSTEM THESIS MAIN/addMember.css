@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    background-color: #0466c9;
+    height: 10vh;
+    width: 100%;
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+nav{
+    height: 10vh;
+    padding: 50px 10px;
+    min-width: 5vw;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: whitesmoke;
+    width: 100vw;
+}
+
+nav i{
+    font-size: 25px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    z-index: 2;
+    color: white;
+}
+
+nav i:hover{
+    background-color: rgba(4, 90, 201, 0.7); 
+}
+
+#open-sidebar{
+    display: none;
+}
+
+.sidebar{
+    min-width: 15vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0466c9; 
+    padding: 0px 25px;
+    color: white;
+    z-index: 1;
+}
+
+.sidebar-logo{
+    margin-top: 15vh;
+    margin-bottom: 20px;
+}
+
+.sidebar-navLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar-navLinks a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px  ;
+}
+
+.sidebar-navLinks a:hover{
+    text-decoration: underline;
+}
+
+.activeLink{
+    background-color: #0456c9;
+}
+
+.main-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#main{
+    margin: 2vh 0vw;
+    width: 30%;
+    height: 50%;
+}
+
+#main form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#main form button,input{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#main form input{
+    border: 1px solid black;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container button{
+    width: 30%;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.button-container :nth-child(1){
+    background-color: mediumseagreen;
+}
+
+.button-container :nth-child(2){
+    background-color: #0466c9;
+}
+
+.button-container :nth-child(3){
+    background-color: crimson;
+}
+
+.profileImg-container {
+    width: 100%;
+    height: 20%; /* Adjust as needed */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileImg-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#chooseImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#Barcode{
+    width: 30%;
+}
+
+@media only screen and (max-width: 767px) {
+    header{
+        height: 15vh;
+        font-size: 13px;
+    }
+    #main{
+        width: 80%;
+    }
+}
