@@ -26,6 +26,6 @@ some screenshots:
 <img src="https://github.com/jedelacruz/Barcode-Attendance-System-using-PHP/assets/93860350/44d247e0-628c-4e4d-a9c8-411adad99b2e" width="500">
 <img src="https://github.com/jedelacruz/Barcode-Attendance-System-using-PHP/assets/93860350/fa5f05b5-3056-4ff7-a880-e32b2aed6c0e" width="500">
 
-
+i will upload the old version of the file (blue ui + old), the new one (khaki ui + website) is restricted lmao (my friend dont want me to upload it coz of school reasons????)
 
 
