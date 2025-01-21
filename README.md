@@ -1,7 +1,7 @@
 # Barcode Attendance System using PHP  
 
 ### About  
-This project was created as a thesis for 12th grade. It's a **Barcode Attendance System** built with **PHP** and includes extensions for generating barcodes, saving them, and creating ready-to-print PDFs. The system was developed in just one month and deployed on free hosting.  
+This project was created as a thesis for 12th grade for a church attendance tracking system. It's a Barcode Attendance System built with PHP, incorporating extensions for generating barcodes, saving them, and creating ready-to-print PDFs. The system was developed in just one month and deployed on free hosting.
 
 Special thanks to **Enzo** for contributing to this project!  
 
